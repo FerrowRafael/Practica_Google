@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+nav > div{
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+
+nav > div:first-child{
+    min-width: 200px;
+}
+
+nav > div:last-child{
+    min-width: 300px;
+}
